@@ -1,0 +1,14 @@
+author: dennyrwa
+name: Kedai Kosim
+judul: Kafe di Tulungagung
+address: Jl. Wahid Hasyim No. 62 (Barat perempatan 555) Tulungagung
+description: Kedai Kopi di Tulungagung dengan varian kopi nusantara kopi Toraja Wamena Sidikalang Mandheling Lampung Kintamani
+exclude: [README.md]
+facebook: kedaikosim
+instagram: kedaikosim
+twittersite: kedaikosim
+favicon: /assets/img/favicon.png
+permalink: pretty
+permalink: /404.html
+siteurl: https://kedaikosim.com
+baseurl: 
