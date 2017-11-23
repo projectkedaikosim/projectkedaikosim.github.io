@@ -1,6 +1,6 @@
 ---
 layout: home
-title-kopi: Caffee
+title-kopi: Cafe
 gambar-kopi: https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=1498&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 height-kopi: 260
 width-kopi: 367
@@ -16,15 +16,15 @@ title-dropship: Dropship
 gambar-dropship: assets/img/credit-card-56a1df095f9b58b7d0c40427.png
 height-dropship: 216
 width-dropship: 304
-deskripsi-dropship: Dropship adalah sebuah metode jual beli online di mana penjual tidak melakukan stok barang ataupun proses pengiriman.
+deskripsi-dropship: Kedai Kosim membuka peluang dropship bagi para pedagang yang ingin menjual produk-produk Kedai Kosim. Silahkan menghubungi kami melalui klik tombol whatsapp untuk info lebih lanjut.
 title-kemitraan: Kemitraan
 gambar-kemitraan: https://images.unsplash.com/photo-1493689485253-f07fcbfc731b?auto=format&fit=crop&w=733&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 height-kemitraan: 500
 width-kemitraan: 733
-deskripsi-kemitraan: Kemitraan adalah suatu strategi bisnis yang dilakukan oleh dua pihak atau lebih dalam jangka waktu tertentu untuk meraih manfaat bersama maupun keuntungan bersama sesuai prinsip saling membutuhkan dan saling mengisi sesuai kesepakatan yang muncul.
+deskripsi-kemitraan: Anda pecinta kopi? Anda seseorang yang memiliki jiwa wirausaha dan ingin membuka kedai kopi anda sendiri? Kamibisa membantu anda mewujudkannya. Hubungi kami di kosim.coffeehouse@gmail.com
 title-merchandise: Merchandise
 gambar-merchandise: assets/img/merchandise-1.jpg
 height-merchandise: 216
 width-merchandise: 304
-deskripsi-merchandise: Merchandise adalah segala bentuk produk yang ditujukan sebagai hadiah.
+deskripsi-merchandise: Kedai Kosim menyediakan berbagai macam merchandise mulai dari stickers, pins, t-shirts, hingga coffee beans dari berbagai macam daerah di Indonesia.
 ---
