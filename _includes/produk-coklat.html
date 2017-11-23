@@ -6,8 +6,9 @@
                 <amp-img src="{{ item.gambar }}" alt="" height="{{ item.height }}" width="{{ item.width }}" layout="responsive"></amp-img>
             </a>
             <header>
-                <h3>Nama : {{ item.nama_produk }}</h3>
-                <h3>Harga : {{ item.harga_produk }}</h3>
+                <h3>{{ item.nama_produk }}</h3>
+                <p>{{ item.deskripsi }}</p>
+                <h3>{{ item.harga_produk }}</h3>
             </header>
             <footer>
                 <a href="https://api.whatsapp.com/send?text=Kedai%20Kosim%20Pesan%20{{ item.nama_produk }}%20{{ item.harga_produk }}%20(Nama)%20(Alamat)%20&phone=628113600189">
