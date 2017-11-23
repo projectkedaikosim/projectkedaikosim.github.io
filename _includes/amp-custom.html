@@ -18,7 +18,7 @@
 	nav > ul >li{position: fixed;left:18px;top:0px;z-index:991;line-height:40px;}
 
 	/* initial state: hide the menu */
-	nav > ul > li > ul{position:fixed;top:0;left:-240px;width:240px;bottom:0;background:#fefefe;z-index:990;padding-top:36px;border-right:1px solid #ddd;  }
+	nav > ul > li > ul{position:fixed;top:0;left:-240px;width:240px;bottom:0;background:#fefefe;z-index:990;padding-top:36px;border-right:0px solid #ddd;  }
 
 	/* Hover state, the menu button has been clicked*/
 
@@ -173,6 +173,10 @@
 
 	@media screen and (max-width: 736px) {
 
+		.last {
+			display: none;
+		}
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 125%;
@@ -198,6 +202,7 @@
 	}
 
 /* Grid */
+	
 
 	.row {
 		border-bottom: solid 1px transparent;
@@ -459,6 +464,7 @@
 
 		.row > * {
 			padding: 50px 0 0 50px;
+			list-style-type: none;
 		}
 
 		.row {
@@ -893,6 +899,7 @@
 
 		.row {
 			margin: -20px 0 -1px -20px;
+			list-style-type: none;
 		}
 
 		.row.uniform > * {
@@ -1548,70 +1555,15 @@
 
 			ul.social li a {
 				display: inline-block;
-				width: 3em;
+				width: 2em;
 				height: 3em;
 				text-align: center;
 				border-radius: 5px;
-				background: #888;
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-ms-transition: background-color .25s ease-in-out;
 				transition: background-color .25s ease-in-out;
 			}
-
-				ul.social li a:before {
-					color: #fff;
-					font-size: 2em;
-					line-height: 1.5em;
-				}
-
-				ul.social li a.fa-facebook {
-					background: #3c5a98;
-				}
-
-					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
-					}
-
-				ul.social li a.fa-twitter {
-					background: #2daae4;
-				}
-
-					ul.social li a.fa-twitter:hover {
-						background: #3dbaf4;
-					}
-
-				ul.social li a.fa-dribbble {
-					background: #c4376b;
-				}
-
-					ul.social li a.fa-dribbble:hover {
-						background: #d4477b;
-					}
-
-				ul.social li a.fa-linkedin {
-					background: #006599;
-				}
-
-					ul.social li a.fa-linkedin:hover {
-						background: #1075a9;
-					}
-
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
-				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
-					}
-
-				ul.social li a.fa-google-plus {
-					background: #da2713;
-				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
-					}
 
 	ol.default {
 		list-style: decimal;
@@ -1717,7 +1669,7 @@
 
 	#header-wrapper {
 		position: relative;
-		background: #ffffff;
+		background: #ffffff url("assets/img/wall.png");
 		border-bottom: solid 1px #ccc;
 	}
 
@@ -1906,7 +1858,7 @@
 				}
 
 			ul.social {
-				margin: 0 0 3.25em 0;
+				margin: 0 0 1.5em 0;
 			}
 
 				ul.social li {
@@ -1923,23 +1875,23 @@
 		/* logo */
 
 			#header-logo {
-			    padding: 40px 10px 40px 70px;
+			    padding: 0px 0px 0px 110px;
 			    /* margin: 18px 0; */
 			    width: auto;
-			    height: auto;
+			    height: 90px;
 			    text-transform: none;
 			    white-space: nowrap;
-			    background-image: url(/assets/img/logo.png);
+			    /*background-image: url(/assets/img/logo.png);*/
 			    background-repeat: no-repeat;
-			    background-size: 220px 120px;
+			    /*background-size: 220px 120px;*/
 			    background-position: center;
-			    background-color: #d9851c;
+			    /*background-color: #d9851c;*/
 			}
 
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 2em 0 0.5em 0;
+				padding: 0.5em 0 0 0;
 			}
 
 			#main-wrapper {
@@ -2102,8 +2054,8 @@
 			}
 
 				#intro section {
-					margin: 3em 0;
-					padding: 2.5em 0;
+					margin: 0 0;
+					padding: 0 0;
 				}
 
 				#intro h2 {
@@ -2115,33 +2067,12 @@
 				}
 
 				#intro .middle {
-					position: relative;
-					z-index: 1;
+					padding: 15px
 				}
 
-					#intro .middle:before {
-						content: '';
-						width: 32px;
-						height: 100%;
-						position: absolute;
-						left: -24px;
-						top: 0;
-						display: block;
-						z-index: -1;
-						box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
-					}
-
-					#intro .middle:after {
-						content: '';
-						width: 32px;
-						height: 100%;
-						position: absolute;
-						right: -24px;
-						top: 0;
-						display: block;
-						z-index: -1;
-						box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
-					}
+				#intro .last {
+					padding: 30px;
+				}
 
 				#intro .button {
 					min-width: 12em;
@@ -2535,7 +2466,8 @@
 			}
 
 			#header-wrapper {
-				padding: 2em 0;
+				padding: 0.5em 0;
+				/*display: none;*/
 			}
 
 			#footer-wrapper {
@@ -2552,9 +2484,8 @@
 
 				#intro section {
 					position: relative;
-					border-top: solid 1px #dfdfdf;
-					padding: 2.5em 0 0 0;
-					margin: 1.5em 0 0 0 ;
+					padding: 0 0 0 0;
+					margin: 0 0 0 0 ;
 				}
 
 					#intro section.first {

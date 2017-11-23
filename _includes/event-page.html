@@ -1,16 +1,17 @@
 <section>
     <div class="row">
-        {% for item in site.data-vlog %}
+        {% for item in site.data-event %}
         <div class="6u 12u(mobile)">
             <section class="box">
                 <a href="#" class="image featured">
                     <div class="video">
-                        <amp-youtube data-videoid="{{ item.data-videoid }}" layout="responsive" width="480" height="270">
-                        </amp-youtube>
+                        <amp-img alt="{{ item.judul }}" src="{{ item.gambar }}" width="{{ item.width }}" height="{{ item.height }}" layout="responsive">
+                        </amp-img>
                     </div>
                 </a>
                 <header>
-                    <h3>{{ item.judul }}</h3>
+                    <h3>{{ item.acara }}</h3>
+                    <p>{{ item.tanggal }} {{ item.bulan }} {{ item.tahun }} {{ item.jam }}</p>
                 </header>
                 <p>{{ item.deskripsi }}</p>
             </section>

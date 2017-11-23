@@ -1,0 +1,33 @@
+<div class="row">
+    {% for item in site.data-kemitraan %}
+    <div class="8u 12u(mobile)">
+        <section class="box">
+            <a class="image featured">
+                <amp-img src="{{ item.gambar }}" alt="" height="{{ item.height }}" width="{{ item.width }}" layout="responsive"></amp-img>
+            </a>
+            <header>
+                <h3>{{ item.judul }}</h3>
+                <p>{{ item.deskripsi }}</p>
+            </header>
+        </section>
+    </div>
+    {% endfor %}
+    {% for item in site.data-merchandise limit:2 %}
+    <div class="4u 12u(mobile)">
+        <section class="box">
+            <a class="image featured">
+                <amp-img src="{{ item.gambar }}" alt="" height="{{ item.height }}" width="{{ item.width }}" layout="responsive"></amp-img>
+            </a>
+            <header>
+                <h3>Nama : {{ item.nama_produk }}</h3>
+                <h3>Harga : {{ item.harga_produk }}</h3>
+            </header>
+            <footer>
+                <a href="https://api.whatsapp.com/send?text=Kedai%20Kosim%20Pesan%20{{ item.nama_produk }}%20{{ item.harga_produk }}%20(Nama)%20(Alamat)%20&phone=628113600189">
+                    <amp-img src="assets/img/online-shop-WA.svg" alt="" height="40" width="80" layout="fixed"></amp-img>
+                </a>
+            </footer>
+        </section>
+    </div>
+    {% endfor %}
+</div>

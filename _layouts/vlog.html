@@ -3,35 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ site.judul }} | {{ site.name }}</title>
-    {% include meta.html %} {% include canonical.html %} {% include favicon.html %} {% include viewport.html %} {% include ampproject.html %} {% include amp-youtube.html %} {% include amp-carousel.html %} {% include amp-boilerplate.html %} {% include amp-custom.min.html %}
+    <title>{{ page.title }} | {{ site.judul }} | {{ site.name }}</title>
+    {% include meta.html %} {% include canonical.html %} {% include favicon.html %} {% include viewport.html %} {% include ampproject.html %} {% include amp-youtube.html %} {% include amp-boilerplate.html %} {% include amp-custom.min.html %}
 </head>
 
 <body class="homepage">
     {% include menu-nav.html %} {% include nav.html %}
     <div id="page-wrapper">
-        {% include header-slider.html %}
         <div id="main-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="12u">
-                        <section>
-                            {% include portofolio-1.html %}
-                            <div class="row">
-                                <div class="12u">
-                                    {% include portofolio-2.html %}
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="12u">
-                        {% include vlog-index.html %}
+                        {% include vlog-dobel.html %}
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Footer -->
         <div id="footer-wrapper">
             <section id="footer" class="container">
                 <div class="row">

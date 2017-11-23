@@ -1,0 +1,14 @@
+<section>
+    <header>
+        <h2>Jadwal Acara</h2>
+    </header>
+    <ul class="dates">
+        {% for item in site.data-event limit:5 %}
+        <li>
+            <span class="date">{{ item.bulan }} <strong>{{ item.tanggal }}</strong></span>
+            <h3><a href="/event">{{ item.acara }}</a></h3>
+            <p>{{ item.deskripsi }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
