@@ -1,6 +1,6 @@
 ---
 layout: home
-title-kopi: Cafe
+title-kopi: Coffee
 gambar-kopi: https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=1498&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 height-kopi: 260
 width-kopi: 367
@@ -17,7 +17,7 @@ gambar-dropship: assets/img/credit-card-56a1df095f9b58b7d0c40427.png
 height-dropship: 216
 width-dropship: 304
 deskripsi-dropship: Kedai Kosim membuka peluang dropship bagi para pedagang yang ingin menjual produk-produk Kedai Kosim. Silahkan menghubungi kami melalui klik tombol whatsapp untuk info lebih lanjut.
-title-kemitraan: Kemitraan
+title-kemitraan: Partnership
 gambar-kemitraan: https://images.unsplash.com/photo-1493689485253-f07fcbfc731b?auto=format&fit=crop&w=733&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 height-kemitraan: 500
 width-kemitraan: 733
